@@ -5,8 +5,8 @@
 #include <locale.h>
 void main() {
 	setlocale(LC_ALL, "Rus");
-	int m[20], i = 0, k = 0, ch = 0, nch = 0;
-	int* p;
+	int m[20], i1 = 0, k1 = 0, ch1 = 0, nch1 = 0;
+	int* p1;
 	p = m;
 	for (k = 0;k < 20;k++) {
 		*p = (rand() % 100);
